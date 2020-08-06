@@ -1,0 +1,27 @@
+Resultats :
+
+abattre k=4 lineaire tfidf lemme window=3 : KMeans 0.68
+abattre k=4 lineaire tfidf POS(dep) window=3 : Hierarchical 0.68 (dist=cos, link=single)
+abattre k=5 lineaire embeds(10) texte window=3 : Hierarchical    0.67    Mesure de distance : manhattan  Linkage : single
+# abattre k=4 lineaire embeds(10) texte window=2 : Hierarchical    0.82    Mesure de distance : euclidean  Linkage : single
+
+aborder k=4 linéaire tfidf lemme window=3 : Hierarchical    0.84    Mesure de distance : euclidean  Linkage : single
+aborder k=4 linéaire tfidf POS(dep) window=3 : Hierarchical    0.83    Mesure de distance : manhattan  Linkage : single
+aborder k=4 linéaire emebeds texte window=3 : Hierarchical    0.83    Mesure de distance : cosine     Linkage : single
+aborder k=4 dependance emebeds texte window=3 : Hierarchical    0.83    Mesure de distance : cosine     Linkage : single
+
+affecter k=4 linéaire tfidf lemme window=3 : Hierarchical    0.65    Mesure de distance : manhattan  Linkage : complete
+affecter k=4 linéaire tfidf POS(dep) window=3 : Hierarchical    0.66    Mesure de distance : cosine     Linkage : single
+affecter k=4 linéaire embeds POS(dep) window=3 : Hierarchical    0.66    Mesure de distance : manhattan  Linkage : average
+affecter k=2 linéaire embeds POS(dep) window=3 : Hierarchical    0.98    Mesure de distance : cosine     Linkage : single
+
+comprendre k=2 linéaire tfidf lemme window=3 : KMeans  0.65
+comprendre k=2 linéaire tfidf POS(dep) window=3 : Hierarchical    0.61    Mesure de distance : euclidean  Linkage : complete
+comprendre k=2 linéaire embeds(10) texte window=4 : KMeans  0.71
+comprendre k=2 linéaire embeds(10) texte window=5 : Hierarchical    0.62    Mesure de distance : euclidean  Linkage : average
+
+compter k=5 linéaire tfidf lemme window=3 : Hierarchical    0.71    Mesure de distance : cosine     Linkage : single
+compter k=5 linéaire tfidf POS(dep) window=3 : Hierarchical    0.81    Mesure de distance : euclidean  Linkage : average
+compter k=5 linéaire embeds(10) texte window=3 : Hierarchical    0.71    Mesure de distance : manhattan  Linkage : single
+compter k=5 linéaire embeds(10) texte window=4 : Hierarchical    0.72    Mesure de distance : manhattan  Linkage : single
+compter k=4 linéaire embeds(10) texte window=4 : Hierarchical    0.73    Mesure de distance : manhattan  Linkage : single
